@@ -23,6 +23,14 @@ article {
   border-radius: 5px;
 }
 
+@media print{
+  article{
+    flex-basis: 100%;
+    border: 0; 
+    padding: 0;
+  }
+  article a{display: none;}
+}
 
 
 /* This CSS is to make things pretty. Nothing needs to be changed here. */
@@ -40,7 +48,7 @@ a {
   font-weight: bold;
 }
 a:hover {
-  background-color: #85C2B6;
+  background-color: #EFAC2F;
   color: #2C3E57;
 }
 .fas {
@@ -60,4 +68,3 @@ a:hover {
 .fa-seedling {
   color: #99A765;
 }
-
