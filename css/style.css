@@ -23,24 +23,6 @@ article {
   border-radius: 5px;
 }
 
-/* @media (min-width:500px) and (max-width:849px){
-  article{
-    flex-basis: 49%;
-  }
-}
-@media (min-width:850px){
-  article{
-    flex-basis: 24%;
-  }
-}
- */
-
-@media (min-height:500px){
-  .fas{float: left;}
-}
-
-
-
 
 /* This CSS is to make things pretty. Nothing needs to be changed here. */
 body {
@@ -76,4 +58,17 @@ a:hover {
 }
 .fa-seedling {
   color: #99A765;
+}
+
+
+/* @media screen, print, speach, all */
+
+@media (min-aspect-ratio:16/9) {
+  .fas{float: left;}
+}
+
+@media (min-aspect-ratio:4/3){
+  article{
+    flex-basis: 49%;
+  }
 }
