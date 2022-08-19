@@ -23,7 +23,7 @@ article {
   border-radius: 5px;
 }
 
-@media (min-width:500px) and (max-width:849px){
+/* @media (min-width:500px) and (max-width:849px){
   article{
     flex-basis: 49%;
   }
@@ -33,6 +33,14 @@ article {
     flex-basis: 24%;
   }
 }
+ */
+
+@media (min-height:500px){
+  .fas{float: left;}
+}
+
+
+
 
 /* This CSS is to make things pretty. Nothing needs to be changed here. */
 body {
